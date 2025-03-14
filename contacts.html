@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border: 2px solid blue;
+            width: 400px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid red;
+            box-sizing: border-box;
+        }
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+        }
+        button {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+h2 {
+    font-size: 24px;
+    color: blue;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+.head{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+    </style>
+</head>
+<body>
+  
+    <div class="clearfix"></div>
+    <div class="col-div-4">
+        <div class="content box" style="padding-left: 40px;">
+            <p class="head">contacts</p>
+            <p span class="icon">📞</span>0722967924</p>              
+            <p span class="icon">📞</span>0733452432</p>
+            <p><span class="icon">✉</span>rutorogers060@gmail.com</p>
+   
+
+<div class="form-container">
+    <form>
+        <label>Enter your Name:</label><br>
+        <input type="text" name="name"><br>
+
+        <label>E-mail address*:</label><br>
+        <input type="email" name="email"><br>
+
+        <label>Message Subject:</label><br>
+        <input type="text" name="subject"><br>
+
+        <label>Enter your Message*:</label><br>
+        <textarea name="message" rows="4"></textarea><br>
+
+        <div class="checkbox-container">
+            <input type="checkbox" id="copy">
+            <label for="copy">E-mail a copy of this message to your own address.</label>
+        </div><br>
+
+        <button type="submit">Send</button>
+    </form>
+</div>
+<p style="font-size: 30px;">Back to main page: <a href="index.html">Main page</a></p>
+</body>
+</html>
